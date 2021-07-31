@@ -187,3 +187,9 @@ function Header_nav()
     register_nav_menu('headerMenuLocation', 'Header menu location');
     register_nav_menu('footerMenuLocation', 'Footer menu location');
 }
+
+add_action( 'wp_enqueue_scripts', "experimentors_scripts" );
+
+function experimentors_scripts(){
+	wp_enqueue_style( 'main_styles', get_template_directory_uri().'/assets/css/main.css' );
+}

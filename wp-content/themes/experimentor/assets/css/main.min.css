@@ -1,0 +1,10 @@
+*{margin:0;padding:0;-webkit-box-sizing:border-box;box-sizing:border-box}
+body{font-family:"Spartan",sans-serif}
+.site-header{width:100%;max-width:100%;height:100px;background-color:white;margin-bottom:60px}
+.container{width:1400px;margin-left:auto;margin-right:auto;max-width:100%}
+.experimentor_navbar ul{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;list-style:none;-webkit-transition:.3s;transition:.3s;padding-top:35px}
+.site_logo img{width:100px;height:100px;max-width:100%}
+.experimentor_navbar ul li a{font-size:18px;color:black;font-weight:700;text-decoration:none;margin-right:20px}
+.experimentor_navbar ul li a:hover{color:#7d828f}
+.experimentor_navbar ul .active{left:0}
+.site_header_content{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row}
